@@ -1,0 +1,47 @@
+*{
+    box-sizing: content-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:#62BFE8;;
+}
+.card{
+    width:451px ;
+}
+.header_card{
+    position:relative;
+}
+.imagen{
+    position:absolute;
+    width:450px;
+    height:383px;
+    z-index: -2;
+  }  
+  .header_card_mod{
+     border: 2px solid black;
+        padding: 15px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+  
+  .precio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    color: #FCFDFD;
+    background-color: #E4747C;
+  }
+.popular{
+    background-color: #62BFE8;
+    color: #FCFDFD;
+    padding: 10px;
+    border-radius: 5px;
+}
